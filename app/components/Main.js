@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
-require('../main.css');
 
 export default React.createClass({
 	render() {

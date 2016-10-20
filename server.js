@@ -48,9 +48,11 @@ function renderPage(appHtml) {
     <meta charset=utf-8/>
     <title>React Project</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/css" href="/main.css">
     <div id=app>${appHtml}</div>
-    <script src="/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="/index_bundle.js"></script>
    `
 }
 

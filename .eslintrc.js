@@ -1,4 +1,4 @@
-{
+module.exports = {
   "parser": "babel-eslint",
   "env" : {
     es6: true,
@@ -30,4 +30,4 @@
     "react/self-closing-comp": 2,
     "react/sort-comp": 2
   },
-}
+};
