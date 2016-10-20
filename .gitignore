@@ -1,5 +1,5 @@
 /node_modules
-bundle.js
+index_bundle.js
 *.bundle.js
 package.json
 .env
